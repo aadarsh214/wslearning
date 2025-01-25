@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "rootDir": "./", // Set rootDir to encompass all source files
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      // other options...
+    },
+    "include": [
+      "frontend/**/*", // Include all files in frontend
+      "backend/**/*"   // Include all files in backend
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "dist" // Exclude output directory
+    ]
+  }
+  
